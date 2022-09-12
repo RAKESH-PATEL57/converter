@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+   
+  
+}
+
+body{
+
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/849/000/large_2x/modern-dark-background-with-gradient-geometric-shape-themes-vector.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+.top{
+    background-color: #0b0c10;
+    color: #66fcf1;
+    height: 50px;
+    justify-content: center;
+    justify-items: center;
+    top: 0;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+
+.top h1{
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+.main{
+   
+    background-color: #C5C6C7;
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 50px;
+    justify-content: center ;
+
+}
+.maintop{
+    display: flex;
+  
+}
+
+.maintop h2{
+    font-size: 50px;
+}
+.inner{
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    color: black;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.line{
+    color: brown;
+    stroke: aqua;
+}
+
+.text{
+    padding: 15px;
+    justify-items: center;
+    letter-spacing: 2px;
+    line-height: 23px;
+}
+
+#expression{
+    width: 50%;
+    height: 7%;
+    border-radius: 99px;
+    font-size: 25px;
+}
+
+
+.btn3{
+    margin: 15px;
+    padding:20px;
+    border-radius:15px ;
+    color: white;
+    background-color: #0b0c10;
+    border-color: #66fcf1;
+}
+
+.bottom{
+    display: flex;
+    bottom: 0;
+    top: 0;
+    justify-content: center;
+    text-align: center;
+    color: #66fcf1;
+    background-color: #0b0c10;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+#postfix{
+    display: inline-block;
+}
