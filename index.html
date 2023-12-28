@@ -63,7 +63,17 @@
         }
         //converter button and expression
         $("button#convert").click(function () {
-            convert();
+
+            // if user not input any values then throughs an error 
+            var userInputExpressions = document.getElementById("expression");
+            if(userInputExpressions.value == '')
+            {
+                alert("Please Enter Your Content")
+            }
+            else
+            {
+                convert();
+            }
             var items, tab = "";
             $("#fullresult").show();
 
