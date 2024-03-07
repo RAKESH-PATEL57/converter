@@ -85,13 +85,6 @@ body{
     color: white;
     background-color: #0b0c10;
     border-color: #66fcf1;
-    cursor: pointer;  /*it converts pointer to a hand.*/
-    transition: .3s;
-}
-
-.btn3:hover
-{
-    box-shadow: 0px 0px 10px aqua;
 }
 
 .bottom{
